@@ -20,19 +20,19 @@ The “Hello World” of working with APIs is often a Weather API (e.g. https://
 ### JSON
 1. Example data: [Corpora](https://github.com/dariusk/corpora)
 2. Loading into the browser: `fetch()`
-  * working with promises, async/await
+    * working with promises, async/await
 3. Rendering DOM elements
 4. Loading data server-side: `fs` package
 
 ### Tabular Data
 1. Example data: (TBD? need super simple spreadsheet!)
 2. Using split() and regex
-  * dealing with header row
+    * dealing with header row
 3. Sorting data
 4. Parsing libraries for working with CSV
-  * What would be good to show?
-  * Google sheet integration?
-  * p5.js `loadTable()`
+    * What would be good to show?
+    * Google sheet integration?
+    * p5.js `loadTable()`
 
 ### Loading Data from an API
 1. CORS! Help!
