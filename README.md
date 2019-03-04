@@ -42,8 +42,11 @@ The “Hello World” of working with APIs is often a Weather API (e.g. https://
 
 ### Loading Data from an API
 1. CORS! Help!
-2. What is the "Hello World" of working with an API? 
+2. API demonstration: https://wheretheiss.at? 
 3. API pagination
+4. Querying an API over and over
+5. API keys and environment variables
+6. Deployment (Glitch?)
 
 ### Geo Data
 * Mapping data (global climate temperatures?)
