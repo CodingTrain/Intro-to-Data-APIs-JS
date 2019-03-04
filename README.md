@@ -33,6 +33,12 @@ The “Hello World” of working with APIs is often a Weather API (e.g. https://
     * What would be good to show?
     * Google sheet integration?
     * p5.js `loadTable()`
+    
+### Databases
+1. Basic MongoDB database?
+2. Saving and retrieving?
+3. Communicating to client JavaScript with `fetch()`?
+4. Database as Service (MongoLabs? Firebase?)
 
 ### Loading Data from an API
 1. CORS! Help!
