@@ -13,3 +13,34 @@ The “Hello World” of working with APIs is often a Weather API (e.g. https://
 
 ## Outline
 
+## Introduction
+1. Course Trailer (~1 minute overview)
+2. Full introduction -- overview of topics, goals for the course
+
+### JSON
+1. Example data: [Corpora](https://github.com/dariusk/corpora)
+2. Loading into the browser: `fetch()`
+  * working with promises, async/await
+3. Rendering DOM elements
+4. Loading data server-side: `fs` package
+
+### Tabular Data
+1. Example data: (TBD? need super simple spreadsheet!)
+2. Using split() and regex
+  * dealing with header row
+3. Sorting data
+4. Parsing libraries for working with CSV
+  * What would be good to show?
+  * Google sheet integration?
+  * p5.js `loadTable()`
+
+### Loading Data from an API
+1. CORS! Help!
+2. What is the "Hello World" of working with an API? 
+3. API pagination
+
+### Geo Data
+* Mapping data (global climate temperatures?)
+
+### Time Series Data
+* Graphing data in real-time
