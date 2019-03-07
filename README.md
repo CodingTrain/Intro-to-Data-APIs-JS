@@ -2,51 +2,40 @@
 
 This is a working document outlining future plans for a new Coding Train playlist: "Working with Data and APIs in JavaScript."
 
-
 ## Description
 
-This course is for aspiring developers who want to learn how to work with data in web applications. How do you find, collect, clean, analyze, and visualize data? I’ll start with the basics of data formats: CSV, XML, and JSON. I’ll then cover how to use Promises and the JavaScript fetch() function to load data asynchronously on a webpage. I’ll do case studies of several APIs and explain how to sign up and authenticate, make a request, and load the data. I’ll look at how this works for both client-side and server-side code. I’ll demonstrate how to visualize the data using HTML5 Canvas and p5.js. The course will end with a demonstration for how to analyze data using modern machine learning techniques such as classification, regression, and clustering.
-
-## Outline
+This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with `fetch()` and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as draw to HTML5 canvas with p5.js. The second and third project will introduce "full stack" development adding server-side programming with node.js for data persistence and API authentication.
 
 ## Introduction
 1. Course Trailer (~1 minute overview)
 2. Full introduction -- overview of topics, goals for the course
 
-### JSON
-1. Example data: [Corpora](https://github.com/dariusk/corpora)
-2. Loading into the browser: `fetch()`
-    * working with promises, async/await
-3. Rendering DOM elements
-4. Loading data server-side:
-    * `fs` package
-    * `es6-promise` and `isomorphic-fetch`;
+### Project 1: TBD (client JS only)
 
-### Tabular Data
-1. Example data: (TBD? need super simple spreadsheet!)
-2. Using split() and regex
-    * dealing with header row
-3. Sorting data
-4. Parsing libraries for working with CSV
-    * What would be good to show?
-    * Google sheet integration?
-    * p5.js `loadTable()`
-    
-### Databases
-1. [NedB](https://github.com/louischatriot/nedb)
-2. Saving, updating, retrieving
-3. Talking to the client
+#### Objectives
+1. Learn `fetch()` for GET requests with Promises and `async`/`await`
+   * See loading data from local image / JSON / CSV
+2. Learn to integrated native JS DOM manipulation with HTML
+3. Discover missing pieces: no persistence, API keys not hidden
 
-### Loading Data from an API
-1. CORS! Help!
-2. API demonstration: https://wheretheiss.at? 
-3. API pagination
-4. Querying an API over and over
-5. API keys and environment variables
-6. Deployment (Glitch?)
+### Project 2: The Data Selfie App
 
-### Geo Data
-* Mapping data (global climate temperatures?)
+[The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee].
 
-### Time Series Data
-* Graphing data in real-time
+#### Objectives
+1. Learn basics of server-side programming with Node.
+2. Learn how to save data to a database with [NedB](https://github.com/louischatriot/nedb).
+    * show just plain array
+    * show flat file
+    * introduce idea of database
+3. Learn how to use `fetch()` to POST data to server.
+
+### Project 3: The Weather Here
+
+[The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee].
+
+#### Objectives
+1. Learn how to use `fetch()` to grab data from APIs in node.js.
+2. Learn how to store private API keys using environment variables.
+3. Learn how to deploy your project using services like [Glitch](http://glitch.com) and more.
+
