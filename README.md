@@ -20,7 +20,7 @@ This course is for aspiring developers who want to learn how to work with data i
 
 ### Project 2: The Data Selfie App
 
-[The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee].
+[The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
 #### Objectives
 1. Learn basics of server-side programming with Node.
@@ -32,7 +32,7 @@ This course is for aspiring developers who want to learn how to work with data i
 
 ### Project 3: The Weather Here
 
-[The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee].
+[The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
 #### Objectives
 1. Learn how to use `fetch()` to grab data from APIs in node.js.
