@@ -23,7 +23,7 @@ This course is for aspiring developers who want to learn how to work with data i
 [The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
 #### Objectives
-1. Learn basics of server-side programming with Node.
+1. Learn basics of server-side programming with Node (and express?)
 2. Learn how to save data to a database with [NedB](https://github.com/louischatriot/nedb).
     * show just plain array
     * show flat file
