@@ -15,7 +15,7 @@ This course is for aspiring developers who want to learn how to work with data i
 #### Objectives
 1. Learn `fetch()` for GET requests with Promises and `async`/`await`
    * See loading data from local image / JSON / CSV
-2. Learn to integrated native JS DOM manipulation with HTML
+2. Learn to "render" data with native JS DOM manipulation
 3. Discover missing pieces: no persistence, API keys not hidden
 
 ### Project 2: The Data Selfie App
