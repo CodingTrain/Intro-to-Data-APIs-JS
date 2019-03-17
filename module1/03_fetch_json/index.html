@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Train: Data and APIs Project 1</title>
+    <script>
+      window.addEventListener('load', setup);
+
+      function setup() {
+        function update() {
+          getData().then(data => {
+            const { timestamp, altitude } = data;
+            const span = document.getElementById('altitude');
+            span.innerHTML = altitude;
+          });
+        }
+
+        async function getData() {
+          const url = 'https://api.wheretheiss.at/v1/satellites/25544';
+          const response = await fetch(url);
+          const json = await response.json();
+          return json;
+        }
+
+        update();
+        setInterval(update, 1000);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>ISS</h1>
+    <p>The altitude of the ISS is <span id="altitude">loading...</span>.</p>
+  </body>
+</html>
