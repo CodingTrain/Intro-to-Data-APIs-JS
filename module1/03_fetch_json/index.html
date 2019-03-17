@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Train: Data and APIs Project 1</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+
+    <style>
+      #issMap {
+        height: 480px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ISS</h1>
+    <p>
+      ISS Latitude: <span id="latitude">loading...</span>&deg;.<br />
+      ISS Longitude: <span id="longitude">loading...</span>&deg;.<br />
+    </p>
+    <div id="issMap"></div>
+    <script>
+      window.addEventListener('load', setup);
+
+      function setup() {
+        // Image from: https://commons.wikimedia.org/wiki/File:International_Space_Station.svg
+        const issIcon = L.icon({
+          iconUrl: 'iss.png'
+        });
+
+        const map = L.map('issMap');
+        map.setView([0, 0], 1);
+        const attribution =
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+        const tiles = L.tileLayer(
+          'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          { attribution }
+        );
+        tiles.addTo(map);
+        const marker = L.marker([0, 0], { icon: issIcon }).addTo(map);
+
+        function update() {
+          getData().then(data => {
+            const { latitude, longitude } = data;
+            const lonSpan = document.getElementById('longitude');
+            const latSpan = document.getElementById('latitude');
+            lonSpan.textContent = longitude.toFixed(2);
+            latSpan.textContent = latitude.toFixed(2);
+            marker.setLatLng([latitude, longitude]);
+          });
+        }
+
+        async function getData() {
+          const url = 'https://api.wheretheiss.at/v1/satellites/25544';
+          const response = await fetch(url);
+          const json = await response.json();
+          return json;
+        }
+
+        update();
+        setInterval(update, 1000);
+      }
+    </script>
+  </body>
+</html>
