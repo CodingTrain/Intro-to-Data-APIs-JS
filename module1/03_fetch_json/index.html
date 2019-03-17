@@ -19,13 +19,26 @@
 
     <style>
       #issMap {
-        height: 240px;
+        height: 480px;
       }
     </style>
+  </head>
+  <body>
+    <h1>ISS</h1>
+    <p>
+      ISS Latitude: <span id="latitude">loading...</span>&deg;.<br />
+      ISS Longitude: <span id="longitude">loading...</span>&deg;.<br />
+    </p>
+    <div id="issMap"></div>
     <script>
       window.addEventListener('load', setup);
 
       function setup() {
+        // Image from: https://commons.wikimedia.org/wiki/File:International_Space_Station.svg
+        const issIcon = L.icon({
+          iconUrl: 'iss.png'
+        });
+
         const map = L.map('issMap');
         map.setView([0, 0], 1);
         const attribution =
@@ -36,7 +49,7 @@
           { attribution }
         );
         tiles.addTo(map);
-        const marker = L.marker([0, 0]).addTo(map);
+        const marker = L.marker([0, 0], { icon: issIcon }).addTo(map);
 
         function update() {
           getData().then(data => {
@@ -60,13 +73,5 @@
         setInterval(update, 1000);
       }
     </script>
-  </head>
-  <body>
-    <h1>ISS</h1>
-    <p>
-      ISS Latitude: <span id="latitude">loading...</span>&deg;.<br />
-      ISS Longitude: <span id="longitude">loading...</span>&deg;.<br />
-    </p>
-    <div id="issMap"></div>
   </body>
 </html>

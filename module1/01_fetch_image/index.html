@@ -7,32 +7,21 @@
     <title>Fetch Image</title>
     <link rel="stylesheet" href="" />
   </head>
-
   <body>
     <h1>Fetch a Rainbow</h1>
     <img src="" id="rainbow" />
+    <script>
+      console.log('about to fetch a rainbow');
+      fetchRainbow()
+        .then(console.log)
+        .catch(console.error);
+      async function fetchRainbow() {
+        const response = await fetch('rainbow.jpg');
+        const blob = await response.blob();
+        let img = document.getElementById('rainbow');
+        img.src = URL.createObjectURL(blob);
+        return 'yay!';
+      }
+    </script>
   </body>
-  <script>
-    console.log('about to fetch a rainbow');
-
-    fetchRainbow()
-      .then(console.log)
-      .catch(console.error);
-
-    async function fetchRainbow() {
-      const response = await fetch('rainbow.jpg');
-      const blob = await response.blob();
-      let img = document.getElementById('rainbow');
-      img.src = URL.createObjectURL(blob);
-      return 'yay!';
-    }
-
-    // fetch('rainbow.jpg')
-    //   .then(response => response.blob())
-    //   .then(blob => {
-    //     let img = document.getElementById('rainbow');
-    //     img.src = URL.createObjectURL(blob);
-    //   })
-    //   .catch(error => console.error(error));
-  </script>
 </html>
