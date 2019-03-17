@@ -51,22 +51,19 @@
         tiles.addTo(map);
         const marker = L.marker([0, 0], { icon: issIcon }).addTo(map);
 
-        function update() {
-          getData().then(data => {
-            const { latitude, longitude } = data;
-            const lonSpan = document.getElementById('longitude');
-            const latSpan = document.getElementById('latitude');
-            lonSpan.textContent = longitude.toFixed(2);
-            latSpan.textContent = latitude.toFixed(2);
-            marker.setLatLng([latitude, longitude]);
-          });
+        async function update() {
+          const { latitude, longitude } = await getData();
+          const lonSpan = document.getElementById('longitude');
+          const latSpan = document.getElementById('latitude');
+          lonSpan.textContent = longitude.toFixed(2);
+          latSpan.textContent = latitude.toFixed(2);
+          marker.setLatLng([latitude, longitude]);
         }
 
         async function getData() {
           const url = 'https://api.wheretheiss.at/v1/satellites/25544';
           const response = await fetch(url);
-          const json = await response.json();
-          return json;
+          return await response.json();
         }
 
         update();
