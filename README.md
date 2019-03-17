@@ -9,6 +9,7 @@ This course is for aspiring developers who want to learn how to work with data i
 ## Introduction
 1. Course Trailer (~1 minute overview)
 2. Full introduction -- overview of topics, goals for the course
+3. What do I need to know to go to tutorial 1.
 
 ### Module 1: `fetch()` with image, CSV, JSON
 
