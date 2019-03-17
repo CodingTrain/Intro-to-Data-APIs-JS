@@ -24,9 +24,9 @@ This course is for aspiring developers who want to learn how to work with data i
 2. Line chart with [chart.js](https://www.chartjs.org/docs/latest/)
 
 #### 1c: JSON Data from API
-1. load JSON data with `fetch()` and update DOM <span> element
-2. Drawing a static map.
-3. updating with `setInterval()`.
+1. load JSON data with `fetch()` and update DOM <span> element.
+2. Add map to page with [Leaflet.js](https://leafletjs.com/) and place ISS location as marker.
+3. Updating location continuously with `setInterval()`.
 
 #### Objectives
 1. Learn `fetch()` for GET requests with Promises and `async`/`await`
