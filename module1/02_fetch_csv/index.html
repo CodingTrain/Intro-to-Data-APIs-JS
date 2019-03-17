@@ -41,8 +41,7 @@
         const years = [];
         const temps = [];
         const data = await response.text();
-        const rows = data.split('\n');
-        rows.splice(0, 1);
+        const rows = data.split('\n').slice(1);
         rows.forEach(row => {
           const cols = row.split(',');
           years.push(cols[0]);
