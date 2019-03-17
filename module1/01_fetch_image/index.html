@@ -18,7 +18,7 @@
       async function fetchRainbow() {
         const response = await fetch('rainbow.jpg');
         const blob = await response.blob();
-        let img = document.getElementById('rainbow');
+        const img = document.getElementById('rainbow');
         img.src = URL.createObjectURL(blob);
         return 'yay!';
       }
