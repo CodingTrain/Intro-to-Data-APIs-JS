@@ -10,7 +10,23 @@ This course is for aspiring developers who want to learn how to work with data i
 1. Course Trailer (~1 minute overview)
 2. Full introduction -- overview of topics, goals for the course
 
-### Project 1: TBD (client JS only)
+### Module 1: `fetch()` with image, CSV, JSON
+
+#### 1a: fetch()
+1. What is `fetch()`?
+    * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+    * Promises, async and await
+    * [Body - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Body)
+    * `<img>` DOM element
+
+#### 1b: Tabular Data
+1. Parsing CSV with `split()`
+2. Line chart with [chart.js](https://www.chartjs.org/docs/latest/)
+
+#### 1c: JSON Data from API
+1. load JSON data with `fetch()` and update DOM <span> element.
+2. Add map to page with [Leaflet.js](https://leafletjs.com/) and place ISS location as marker.
+3. Updating location continuously with `setInterval()`.
 
 #### Objectives
 1. Learn `fetch()` for GET requests with Promises and `async`/`await`
@@ -18,7 +34,7 @@ This course is for aspiring developers who want to learn how to work with data i
 2. Learn to "render" data with native JS DOM manipulation
 3. Discover missing pieces: no persistence, API keys not hidden
 
-### Project 2: The Data Selfie App
+### Module 2: The Data Selfie App
 
 [The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
@@ -30,7 +46,7 @@ This course is for aspiring developers who want to learn how to work with data i
     * introduce idea of database
 3. Learn how to use `fetch()` to POST data to server.
 
-### Project 3: The Weather Here
+### Module 3: The Weather Here
 
 [The Weather Here](https://github.com/joeyklee/the-weather-here) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
