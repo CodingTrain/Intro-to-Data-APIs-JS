@@ -7,13 +7,13 @@
     <title>Coding Train: Data/APIs 1</title>
   </head>
   <body>
-    <h1>Fetch a Rainbow</h1>
-    <img src="" id="rainbow" width="480" />
+    <h1>Fetch a Poem</h1>
+    <p id="poem"/>
     <script>
-      console.log('about to fetch a rainbow');
-
-      catchRainbow()
-        .then(response => {
+      console.log('about to fetch a poem');
+      catchPoem()
+        .then(poem => {
+          document.getElementById('poem').innerText = poem;
           console.log('yay');
         })
         .catch(error => {
@@ -21,10 +21,9 @@
           console.error(error);
         });
 
-      async function catchRainbow() {
-        const response = await fetch('rainbow.jpg');
-        const blob = await response.blob();
-        document.getElementById('rainbow').src = URL.createObjectURL(blob);
+      async function catchPoem() {
+        const response = await fetch('poem.txt');
+        return await response.text();
       }
     </script>
   </body>
