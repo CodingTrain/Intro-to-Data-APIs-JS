@@ -36,7 +36,9 @@
       function setup() {
         // Image from: https://commons.wikimedia.org/wiki/File:International_Space_Station.svg
         const issIcon = L.icon({
-          iconUrl: 'iss.png'
+          iconUrl: 'iss.png',
+          iconSize: [50, 32], // size of the icon
+          iconAnchor: [25, 16] // point of the icon which will correspond to marker's location
         });
 
         const map = L.map('issMap');
