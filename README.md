@@ -39,6 +39,15 @@ This course is for aspiring developers who want to learn how to work with data i
 
 [The Data Selfie App](https://github.com/joeyklee/data-selfie-app) is a project tutorial by [@joeyklee](https://github.com/joeyklee).
 
+#### Videos
+1. What is node, npm, and express? Setting up a server to host static pages.
+2. Accessing GeoLocation with `navigator.geolocation`.
+3. What is a POST? Sending data to the server.
+4. What is a database? Saving data to NeDB.
+4. Retrieving data from NeDB with a "RESTian" route.
+6. Adding capture and images with p5.
+7. Next steps / exercise?
+
 #### Objectives
 1. Learn basics of server-side programming with Node (and express?)
 2. Learn how to save data to a database with [NedB](https://github.com/louischatriot/nedb).
