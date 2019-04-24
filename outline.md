@@ -4,9 +4,9 @@
 
 | Topic         | Recorded      | Edited        | Length | Published     |
 | ------------- | ------------- | ------------- | ------------- |------------- |
-| Trailer  | No  | No  | No  |
-| Introduction  | No  | No  | No  |
-| Inspiration  | No  | No  | No  |
+| Trailer  | No  | No  | | No  |
+| Introduction  | No  | No | | No  |
+| Inspiration  | No  | No | | No  |
 
 ### Module 1
 
