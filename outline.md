@@ -37,8 +37,8 @@
 | Weather API on node  | No  | No  |   |No  |
 | air quality API on node  | No  | No  |   |No  |
 | mapping check-ins with leaflet | No  | No  |  | No  |
-| hiding API keys | Yes  | No  |   |No  |
-| Deploy to Glitch | Yes  | No  |   |No  |
+| hiding API keys | No  | No  |   |No  |
+| Deploy to Glitch | No  | No  |   |No  |
 
 ### Fin
 
