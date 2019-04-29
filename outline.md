@@ -24,7 +24,7 @@
 | Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Server app setup  | Yes  | No  |   | No  |No  |
-| Geolocation  | Yes  | No  |   | No  |
+| Geolocation  | Yes  | No  |   | No  | No  |
 | POST with fetch() | Yes  | No  |   | No  |No  |
 | Database with NeDB | Yes  | No  |   | No  |No  |
 | Query Database | Yes  | No  |   | No  |No  |
@@ -35,7 +35,7 @@
 | Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Weather API on node  | No  | No  |   |No  |No  |
-| air quality API on node  | No  | No  |   |No  |
+| air quality API on node  | No  | No  |   | No  | No  |
 | mapping check-ins with leaflet | No  | No  |  | No  |No  |
 | hiding API keys | No  | No  |   |No  |No  |
 | Deploy to Glitch | No  | No  |   |No  |No  |
