@@ -24,7 +24,7 @@
 | Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Server app setup  | Yes  | Yes  |   | No  |No  |
-| Geolocation  | Yes  | No  |   | Yes  | No  |
+| Geolocation  | Yes  | Yes  |   | No  | No  |
 | POST with fetch() | Yes  | Yes  |   | No  |No  |
 | Database with NeDB | Yes  | Yes  |   | No  |No  |
 | Query Database | Yes  | Yes  |   | No  |No  |
