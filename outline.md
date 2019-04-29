@@ -2,7 +2,7 @@
 
 ### Introduction
 
-| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Trailer  | No  | No  | | No  | No  |
 | Introduction  | No  | No | | No  | No  |
@@ -10,7 +10,7 @@
 
 ### Module 1
 
-| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | fetch()  | Yes  | Yes  | 15:39 | Yes | No  |
 | Tabular Data: Parsing CSV  | Yes  | Yes  | 17:06 | Yes |No  |
@@ -21,7 +21,7 @@
 
 ### Module 2 Data Selfie
 
-| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Server app setup  | Yes  | No  |   | No  |No  |
 | Geolocation  | Yes  | No  |   | No  | No  |
@@ -32,7 +32,7 @@
 
 ### Module 3 Weather Here
 
-| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Weather API on node  | No  | No  |   |No  |No  |
 | air quality API on node  | No  | No  |   | No  | No  |
@@ -42,7 +42,7 @@
 
 ### Fin
 
-| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| Topic         | Recorded      | Edited        | Length        | Animated      | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Wrap-up?  | No  | No  |  | No  | No  |
 
