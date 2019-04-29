@@ -2,16 +2,16 @@
 
 ### Introduction
 
-| Topic         | Recorded      | Edited        | Animated | Length | Published     |
-| ------------- | ------------- | ------------- | ------------- |------------- |
-| Trailer  | No  | No  | | No  |No  |
-| Introduction  | No  | No | | No  |No  |
-| Inspiration  | No  | No | | No  |No  |
+| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Trailer  | No  | No  | | No  | No  |
+| Introduction  | No  | No | | No  | No  |
+| Inspiration  | No  | No | | No  | No  |
 
 ### Module 1
 
-| Topic         | Recorded      | Edited        |   Length | Animated | Published     |
-| ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
+| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | fetch()  | Yes  | Yes  | 15:39 | Yes | No  |
 | Tabular Data: Parsing CSV  | Yes  | Yes  | 17:06 | Yes |No  |
 | Tabular Data: Chart.js | Yes  | No  |  | No | No  |
@@ -21,7 +21,7 @@
 
 ### Module 2 Data Selfie
 
-| Topic         | Recorded      | Edited        |   Length | Animated | Published     |
+| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Server app setup  | Yes  | No  |   | No  |No  |
 | Geolocation  | Yes  | No  |   | No  |
@@ -32,8 +32,8 @@
 
 ### Module 3 Weather Here
 
-| Topic         | Recorded      | Edited        |   Length | Animated | Published     |
-| ------------- | ------------- | ------------- | ------------- |------------- | ------------- |
+| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Weather API on node  | No  | No  |   |No  |No  |
 | air quality API on node  | No  | No  |   |No  |
 | mapping check-ins with leaflet | No  | No  |  | No  |No  |
@@ -42,8 +42,8 @@
 
 ### Fin
 
-| Topic         | Recorded      | Edited        |   Length | Animated | Published     |
-| ------------- | ------------- | ------------- | ------------- |------------- | ------------- |
+| Topic         | Recorded      | Edited        | Animated      | Length        | Published     |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Wrap-up?  | No  | No  |  | No  | No  |
 
 
