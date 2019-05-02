@@ -28,7 +28,8 @@
 | POST with fetch() | Yes  | Yes  | 15:52  | No  |No  |
 | Database with NeDB | Yes  | Yes  | 11:25  | No  |No  |
 | Query Database | Yes  | Yes  | 12:55  | No  |No  |
-| Capturing images | No  | No  |   | No  |No  |
+| Capturing images | Yes  | No  |   | No  |No  |
+| Wrap-up Module 2 (WCAG) | Yes  | No  |   | No  |No  |
 
 ### Module 3 Weather Here
 
