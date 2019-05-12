@@ -17,7 +17,7 @@
     ></script>
     <style>
       #issMap {
-        height: 180px;
+        height: 360px;
       }
     </style>
 
@@ -49,7 +49,19 @@
         iconSize: [50, 32],
         iconAnchor: [25, 16]
       });
-      const marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
+      let marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
+
+      mymap.on('zoomend', function() {
+        const zoom = mymap.getZoom() + 1;
+        const w = 50 * zoom;
+        const h = 32 * zoom;
+        issIcon.options.iconSize = [w, h];
+        issIcon.options.iconAnchor = [w / 2, h / 2];
+        mymap.removeLayer(marker);
+        let latlng = marker.getLatLng();
+        marker = L.marker([0, 0], { icon: issIcon }).addTo(mymap);
+        marker.setLatLng(latlng);
+      });
 
       const api_url = 'https://api.wheretheiss.at/v1/satellites/25544';
 
@@ -70,7 +82,6 @@
       }
 
       getISS();
-
       setInterval(getISS, 1000);
     </script>
   </body>
