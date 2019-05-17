@@ -12,7 +12,7 @@
 
 |#| Topic         | Recorded      | Edited        | Length        | Animated     |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
-|1| fetch()  | Yes  | Yes  | 15:39 | Yes | Yes  |No  |
+|1| fetch()  | Yes  | Yes  | 15:39 | Yes | Yes  |Yes  |
 |2| Tabular Data: Parsing CSV  | Yes  | Yes  | 17:06 | Yes | Yes  |No  |
 |3| Tabular Data: Chart.js | Yes  | Yes  | 20:02 | Yes | Yes  |No  |
 |4| JSON: fetch() | Yes  | Yes  | 16:11 |No  |No  |No  |
