@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data Selfie App</h1>
+    <p>
+      latitude: <span id="latitude"></span>&deg;<br />
+      longitude: <span id="longitude"></span>&deg;<br />
+    </p>
+    <button id="geolocate">geolocate</button>
+    <script>
+      document.getElementById('geolocate').addEventListener('click', event => {
+        if ('geolocation' in navigator) {
+          console.log('geolocation available');
+          navigator.geolocation.getCurrentPosition(position => {
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            console.log(lat, lon);
+            document.getElementById('latitude').textContent = lat;
+            document.getElementById('longitude').textContent = lon;
+          });
+        } else {
+          console.log('geolocation not available');
+        }
+      });
+    </script>
+  </body>
+</html>
