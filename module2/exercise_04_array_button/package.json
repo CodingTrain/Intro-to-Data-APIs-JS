@@ -1,0 +1,19 @@
+{
+  "name": "module2_exercise_04",
+  "version": "1.0.0",
+  "description": "This is the data selfie app by Joey Lee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Daniel Shiffman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
