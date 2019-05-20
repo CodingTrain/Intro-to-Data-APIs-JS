@@ -9,7 +9,7 @@ async function getData() {
     const geo = document.createElement('div');
     const date = document.createElement('div');
 
-    geo.textContent = `${item.lat}°, ${item.lon}°`;
+    geo.textContent = `${item.lat.toFixed(2)}°, ${item.lon.toFixed(2)}°`;
     const dateString = new Date(item.timestamp).toLocaleString();
     date.textContent = dateString;
     root.append(geo, date);
