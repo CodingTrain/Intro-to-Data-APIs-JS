@@ -35,7 +35,7 @@
 
 |#| Topic         | Recorded      | Edited        | Length        | Animated      |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
-|1| Weather API on node  | No  | No  |   |No  |No  |No  |
+|1| Weather API on node  | Yes  | No  |   |No  |No  |No  |
 |2| air quality API on node  | No  | No  |   | No  | No  |No  |
 |3| mapping check-ins with leaflet | No  | No  |  | No  |No  |No  |
 |4| hiding API keys | No  | No  |   |No  |No  |No  |
