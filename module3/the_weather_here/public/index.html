@@ -2,15 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>The Weather Here</title>
   </head>
   <body>
     <h1>The Weather Here</h1>
-    <div><a href="/">check in</a> | <a href="/checkins">view checkins</a></div>
-    <p><span id="latitude"></span>&deg;, <span id="longitude"></span>&deg;.</p>
+    <div>
+      <a href="/">check in</a> | <a href="/checkins">view checkins</a>
+    </div>
+    <p>
+      The weather here at <span id="latitude"></span>&deg;,
+      <span id="longitude"></span>&deg; is <span id="summary"></span> with
+      a temperature of <span id="temp"></span>&deg; F. The concentration of
+      particulate matter (<span id="aq_parameter"></span>) is
+      <span id="aq_value"></span> <span id="aq_units"></span> last read on
+      <span id="aq_date"></span>.
+    </p>
     <button id="checkin">check in</button>
     <script src="sketch.js"></script>
   </body>
