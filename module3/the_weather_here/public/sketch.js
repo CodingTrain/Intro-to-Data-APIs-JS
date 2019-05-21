@@ -7,8 +7,8 @@ if ('geolocation' in navigator) {
     lon = position.coords.longitude;
     document.getElementById('latitude').textContent = lat.toFixed(2);
     document.getElementById('longitude').textContent = lon.toFixed(2);
-    // const api_url = `weather/${lat},${lon}`;
-    const api_url = `/weather`;
+    const api_url = `weather/${lat},${lon}`;
+    // const api_url = `/weather`;
     const response = await fetch(api_url);
     const json = await response.json();
     console.log(json);

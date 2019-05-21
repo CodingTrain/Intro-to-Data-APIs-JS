@@ -28,9 +28,14 @@ app.post('/api', (request, response) => {
   response.json(data);
 });
 
-app.get('/weather', async (request, response) => {
-  // const api_url = `https://api.darksky.net/forecast/08fe01a78943266193fc7a23625f68fa/${lat},${lon}`;
-  const api_url = `https://api.darksky.net/forecast/08fe01a78943266193fc7a23625f68fa/37.8267,-122.4233`;
+app.get('/weather/:latlon', async (request, response) => {
+  console.log(request.params);
+  const latlon = request.params.latlon.split(',');
+  console.log(latlon);
+  const lat = latlon[0];
+  const lon = latlon[1];
+  console.log(lat, lon);
+  const api_url = `https://api.darksky.net/forecast/08fe01a78943266193fc7a23625f68fa/${lat},${lon}`;
   const fetch_response = await fetch(api_url);
   const json = await fetch_response.json();
   response.json(json);
