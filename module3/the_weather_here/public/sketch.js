@@ -3,6 +3,7 @@ let lat, lon;
 if ('geolocation' in navigator) {
   console.log('geolocation available');
   navigator.geolocation.getCurrentPosition(async position => {
+    let lat, lon, weather, air;
     try {
       lat = position.coords.latitude;
       lon = position.coords.longitude;
@@ -11,9 +12,8 @@ if ('geolocation' in navigator) {
       const api_url = `weather/${lat},${lon}`;
       const response = await fetch(api_url);
       const json = await response.json();
-      console.log(json);
-      const weather = json.weather.currently;
-      const air = json.air_quality.results[0].measurements[0];
+      weather = json.weather.currently;
+      air = json.air_quality.results[0].measurements[0];
       document.getElementById('summary').textContent = weather.summary;
       document.getElementById('temp').textContent = weather.temperature;
       document.getElementById('aq_parameter').textContent = air.parameter;
@@ -22,25 +22,22 @@ if ('geolocation' in navigator) {
       document.getElementById('aq_date').textContent = air.lastUpdated;
     } catch (error) {
       console.error(error);
+      air = { value: -1 };
       document.getElementById('aq_value').textContent = 'NO READING';
     }
+
+    const data = { lat, lon, weather, air };
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    };
+    const db_response = await fetch('/api', options);
+    const db_json = await db_response.json();
+    console.log(db_json);
   });
 } else {
   console.log('geolocation not available');
 }
-
-// Handle button presses, submit data to database
-const button = document.getElementById('checkin');
-button.addEventListener('click', async event => {
-  const data = { lat, lon };
-  const options = {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
-  };
-  const response = await fetch('/api', options);
-  const json = await response.json();
-  console.log(json);
-});
