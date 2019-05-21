@@ -4,6 +4,7 @@
   "description": "This is a version of 'weather here' app by Joey Lee.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "Daniel Shiffman",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "nedb": "^1.8.0",
     "node-fetch": "^2.6.0"
