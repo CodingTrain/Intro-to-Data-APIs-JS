@@ -38,12 +38,6 @@
 |1| Weather API on node  | Yes  | No  |   |No  |No  |No  |
 |2| air quality API on node  | Yes  | No  |   | No  | No  |No  |
 |3| mapping check-ins with leaflet | Yes  | No  |  | No  |No  |No  |
-|4| hiding API keys | No  | No  |   |No  |No  |No  |
-|5| Deploy to Glitch | No  | No  |   |No  |No  |No  |
-
-### Fin
-|#| Topic         | Recorded      | Edited        | Length        | Animated      |Ready     | Published     | 
-|-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
-|1| Wrap-up?  | No  | No  |  | No  | No  |No  |
-
+|4| hiding API keys and pushing to GitHub | Yes  | No  |   |No  |No  |No  |
+|5| Deployment (Glitch and Heroku) | Yes  | No  |   |No  |No  |No  |
 
