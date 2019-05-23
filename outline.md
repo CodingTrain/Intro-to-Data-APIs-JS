@@ -13,8 +13,8 @@
 |#| Topic         | Recorded      | Edited        | Length        | Animated     |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
 |1| fetch()  | Yes  | Yes  | 15:39 | Yes | Yes  |Yes  |
-|2| Tabular Data: Parsing CSV  | Yes  | Yes  | 17:06 | Yes | Yes  |No  |
-|3| Tabular Data: Chart.js | Yes  | Yes  | 20:02 | Yes | Yes  |No  |
+|2| Tabular Data: Parsing CSV  | Yes  | Yes  | 17:06 | Yes | Yes  |Yes  |
+|3| Tabular Data: Chart.js | Yes  | Yes  | 20:02 | Yes | Yes  |Yes  |
 |4| JSON: fetch() | Yes  | Yes  | 16:11 |No  |No  |No  |
 |5| mapping with leaflet.js | Yes  | Yes  | 15:19 |No  |No  |No  |
 |6| updating with setInterval | Yes  | Yes  | 8:35 |No  |No  |No  |
