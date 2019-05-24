@@ -35,9 +35,9 @@
 
 |#| Topic         | Recorded      | Edited        | Length        | Animated      |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
-|1| Weather API on node  | Yes  | Yes  | 18:02  |No  |No  |No  |
-|2| air quality API on node  | Yes  | No  |   | No  | No  |No  |
-|3| mapping check-ins with leaflet | Yes  | No  |  | No  |No  |No  |
-|4| hiding API keys and pushing to GitHub | Yes  | No  |   |No  |No  |No  |
-|5| Deployment (Glitch and Heroku) | Yes  | No  |   |No  |No  |No  |
+|1| Weather API on node  | Yes  | Yes  | 18:11  |No  |No  |No  |
+|2| air quality API on node  | Yes  | Yes  |  17:39 | No  | No  |No  |
+|3| mapping check-ins with leaflet | Yes  | Yes  | 13:58 | No  |No  |No  |
+|4| hiding API keys and pushing to GitHub | Yes  | Yes  | 11:49  |No  |No  |No  |
+|5| Deployment (Glitch and Heroku) | Yes  | Yes  | 19:14  |No  |No  |No  |
 
