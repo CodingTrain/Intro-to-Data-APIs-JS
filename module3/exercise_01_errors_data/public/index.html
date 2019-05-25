@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>The Weather Here</title>
+  </head>
+  <body>
+    <h1>The Weather Here</h1>
+    <div><a href="/">check in</a> | <a href="/checkins">view checkins</a></div>
+    <p>
+      I'm sitting out here at <span id="latitude"></span>&deg;, <span id="longitude"></span>&deg; on
+      this <span id="summary"></span> day and it feels like <span id="temp"></span>&deg; C.
+      outside.<br /><br />
+      <span id="air"
+        >The concentration of small carcinogenic particles (<span id="aq_parameter"></span>) I'm
+        breathing in is <span id="aq_value"></span> <span id="aq_units"></span> measured from
+        <span id="aq_city"></span> at <span id="aq_location"></span> on <span id="aq_date"></span>.
+      </span>
+    </p>
+    <script src="sketch.js"></script>
+  </body>
+</html>
