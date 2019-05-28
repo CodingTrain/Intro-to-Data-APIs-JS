@@ -5,7 +5,7 @@
 |#| Topic         | Recorded      | Edited        | Length        | Animated      |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
 |1| Trailer  | No  | No  | | No  | No  |No  |
-|2| Introduction  | No  | No | | No  | No  |No  |
+|2| What do you need?  | No  | No | | No  | No  |No  |
 |3| Inspiration  | No  | No | | No  | No  |No  |
 
 ### Module 1
@@ -16,7 +16,7 @@
 |2| Tabular Data: Parsing CSV  | Yes  | Yes  | 17:15 | Yes | Yes  |Yes  |
 |3| Tabular Data: Chart.js | Yes  | Yes  | 19:46 | Yes | Yes  |Yes  |
 |4| JSON: fetch() | Yes  | Yes  | 16:11 |Yes  |Yes  |Yes  |
-|5| mapping with leaflet.js | Yes  | Yes  | 15:22 |Yes  |Yes  |No  |
+|5| mapping with leaflet.js | Yes  | Yes  | 15:22 |Yes  |Yes  |Yes  |
 |6| updating with setInterval | Yes  | Yes  | 8:44 | Yes  |Yes  |No  |
 
 ### Module 2 Data Selfie
