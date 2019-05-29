@@ -29,7 +29,7 @@
 |4| Database with NeDB | Yes  | Yes  | 11:18  | Yes  |Yes  |No  |
 |5| Query Database | Yes  | Yes  | 13:05  | Yes  |Yes  |No  |
 |6| Capturing images | Yes  | Yes  |  12:52 | Yes  |Yes  |No  |
-|7| Wrap-up Module 2 (WCAG) | Yes  | Yes  | 12:14  | Mostly  |No  |No  |
+|7| Wrap-up Module 2 (WCAG) | Yes  | Yes  | 12:14  | Yes  |Yes  |No  |
 
 ### Module 3 Weather Here
 
@@ -37,7 +37,7 @@
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
 |1| Weather API on node  | Yes  | Yes  | 17:50  |Yes  |Yes  |No  |
 |2| air quality API on node  | Yes  | Yes  |  16:05 | Yes  | Yes  |No  |
-|3| mapping check-ins with leaflet | Yes  | Yes  | 13:47 | Yes  |No  |No  |
-|4| hiding API keys and pushing to GitHub | Yes  | Yes  | 11:51  |Yes  |No  |No  |
-|5| Deployment (Glitch and Heroku) | Yes  | Yes  | 19:10  |Yes  |No  |No  |
+|3| mapping check-ins with leaflet | Yes  | Yes  | 13:47 | Yes  |Yes  |No  |
+|4| hiding API keys and pushing to GitHub | Yes  | Yes  | 11:51  |Yes  |Yes  |No  |
+|5| Deployment (Glitch and Heroku) | Yes  | Yes  | 19:10  |Yes  |Yes  |No  |
 
