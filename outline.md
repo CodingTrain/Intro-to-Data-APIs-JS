@@ -4,7 +4,7 @@
 
 |#| Topic         | Recorded      | Edited        | Length        | Animated      |Ready     | Published     | 
 |-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
-|1| Trailer  | Yes  | Yes  |1:56 | Yes  | Yes  |No  |
+|1| Trailer  | Yes  | Yes  |1:56 | Yes  | Yes  |Yes  |
 |2| What do you need?  | Yes  | Yes |3:54 | Yes  | Yes  |No  |
 
 ### Module 1
@@ -38,5 +38,5 @@
 |2| air quality API on node  | Yes  | Yes  |  16:05 | Yes  | Yes  |Yes  |
 |3| mapping check-ins with leaflet | Yes  | Yes  | 13:47 | Yes  |Yes  |Yes  |
 |4| hiding API keys and pushing to GitHub | Yes  | Yes  | 11:51  |Yes  |Yes  |Yes  |
-|5| Deployment (Glitch and Heroku) | Yes  | Yes  | 19:10  |Yes  |Yes  |No  |
+|5| Deployment (Glitch and Heroku) | Yes  | Yes  | 19:10  |Yes  |Yes  |Yes  |
 
