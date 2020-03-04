@@ -8,34 +8,30 @@
   </head>
   <body>
     <h1>Fetch Rainbows</h1>
+    <img src="" alt="img1" class="rainbow" width="480px" />
+    <img src="" alt="img2" class="rainbow" width="480px" />
+    <img src="" alt="img3" class="rainbow" width="480px" />
 
     <script>
       console.log('about to fetch some rainbows');
-      const filenames = [
-        'images/daniele-levis-pelusi-311027-unsplash.jpg',
-        'images/guy-stevens-746794-unsplash.jpg',
-        'images/sharon-pittaway-98257-unsplash.jpg'
-      ];
+      let images = document.querySelectorAll('.rainbow');
 
-      catchRainbows(filenames)
-        .then(response => {
-          console.log('yay');
-        })
-        .catch(error => {
-          console.log('error!');
-          console.error(error);
+      async function catchRainbows() {
+        const responses = await Promise.all([
+          await fetch('images/daniele-levis-pelusi-311027-unsplash.jpg'),
+          await fetch('images/uy-stevens-746794-unsplash.jpg'),
+          await fetch('images/sharon-pittaway-98257-unsplash.jpg')
+        ]);
+        responses.forEach(async (response, index) => {
+          let blob = await response.blob();
+          images[index].src = URL.createObjectURL(blob);
         });
-
-      async function catchRainbows(filenames) {
-        for (let filename of filenames) {
-          const response = await fetch(filename);
-          const blob = await response.blob();
-          const img = document.createElement('img');
-          img.src = URL.createObjectURL(blob);
-          img.width = '200';
-          document.body.append(img);
-        }
       }
+
+      catchRainbows()
+        .then(data => console.log('All Promises resolved'))
+        .catch(err => console.error('err'));
+      
     </script>
   </body>
 </html>
