@@ -7,7 +7,7 @@
 | 1   | Trailer           | Yes      | Yes    | 1:56   | Yes      | Yes   | Yes       |
 | 2   | What do you need? | Yes      | Yes    | 3:54   | Yes      | Yes   | Yes       |
 
-### Module 1
+### Module 1 Exercises
 
 | #   | Topic                     | Recorded | Edited | Length | Animated | Ready | Published |
 | --- | ------------------------- | -------- | ------ | ------ | -------- | ----- | --------- |
