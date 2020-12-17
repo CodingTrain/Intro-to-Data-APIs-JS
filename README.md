@@ -1,6 +1,6 @@
 # Working with Data and APIs in JavaScript
 
-This is a working document outlining future plans for a new Coding Train playlist: "Working with Data and APIs in JavaScript."
+This is a working document outlining future plans for a new Coding Train playlist: ["Working with Data and APIs in JavaScript"](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=1)
 
 ## Description
 
