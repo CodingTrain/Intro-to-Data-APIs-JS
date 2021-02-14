@@ -19,7 +19,7 @@ async function getData() {
     const marker = L.marker([item.lat, item.lon]).addTo(mymap);
     let txt = `I'm sitting out here at ${item.lat}&deg;,  ${item.lon}&deg;, on
     this ${item.weather.summary} day and it feels like ${item.weather.temperature}&deg; outside.`;
-    if (item.air.value < 0) {
+    /*if (item.air.value < 0) {
       txt += '  No air quality reading.';
     } else {
       txt += `  
@@ -28,7 +28,7 @@ async function getData() {
         item.air.measurements[0].unit
       } measured from
        ${item.air.city} at ${item.air.location} on ${item.air.measurements[0].lastUpdated}.`;
-    }
+    } */
     marker.bindPopup(txt);
   }
 

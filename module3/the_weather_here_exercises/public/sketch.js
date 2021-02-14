@@ -17,14 +17,14 @@ if ('geolocation' in navigator) {
       console.log(weather.temperature);
       document.getElementById('summary').textContent = weather.summary;
       document.getElementById('temp').textContent = weather.temperature;
-      air = json.air_quality.results[0];
-      console.log(air);
-      document.getElementById('aq_city').textContent = air.city;
-      document.getElementById('aq_location').textContent = air.location;
-      document.getElementById('aq_parameter').textContent = air.measurements[0].parameter;
-      document.getElementById('aq_value').textContent = air.measurements[0].value;
-      document.getElementById('aq_units').textContent = air.measurements[0].unit;
-      document.getElementById('aq_date').textContent = air.measurements[0].lastUpdated;
+      //air = json.air_quality.results[0];
+      //console.log(air);
+      //document.getElementById('aq_city').textContent = air.city;
+      //document.getElementById('aq_location').textContent = air.location;
+      //document.getElementById('aq_parameter').textContent = air.measurements[0].parameter;
+      //document.getElementById('aq_value').textContent = air.measurements[0].value;
+      //document.getElementById('aq_units').textContent = air.measurements[0].unit;
+      //document.getElementById('aq_date').textContent = air.measurements[0].lastUpdated;
     } catch (error) {
       console.error(error);
       air = { value: -1 };
