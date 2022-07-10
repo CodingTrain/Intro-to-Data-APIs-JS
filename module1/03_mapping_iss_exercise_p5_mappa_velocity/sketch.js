@@ -29,7 +29,7 @@ function gotData(data) {
       lat: data.latitude,
       lng: data.longitude,
       zoom: 7,
-      style: "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+      style: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     };
     mymap = mappa.tileMap(options);
     mymap.overlay(canvas);
