@@ -1,6 +1,6 @@
-const mappa = new Mappa('Leaflet');
+const mappa = new Mappa("Leaflet");
 let mymap;
-const api_url = 'https://api.wheretheiss.at/v1/satellites/25544';
+const api_url = "https://api.wheretheiss.at/v1/satellites/25544";
 
 let canvas;
 let issImg;
@@ -8,13 +8,13 @@ const options = {
   lat: 0,
   lng: 0,
   zoom: 1.5,
-  style: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+  style: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
 };
 let x = 0;
 let y = 0;
 
 function preload() {
-  issImg = loadImage('iss200.png');
+  issImg = loadImage("iss200.png");
 }
 
 function setup() {
