@@ -11,7 +11,7 @@
     "data",
     "selfie"
   ],
-  "author": "Fun Planet / Dipam Sen",
+  "author": "Dipam Sen",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
