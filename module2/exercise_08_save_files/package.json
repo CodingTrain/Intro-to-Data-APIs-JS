@@ -11,7 +11,7 @@
     "data",
     "selfie"
   ],
-  "author": "Daniel Shiffman",
+  "author": "Fun Planet / Dipam Sen",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
