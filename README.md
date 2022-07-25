@@ -2,6 +2,9 @@
 
 This document is an outline for the Coding Train playlist: ["Working with Data and APIs in JavaScript"](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=1)
 
+* [Main Track on the Coding Train Website](https://thecodingtrain.com/tracks/data-and-apis-in-javascript)
+* [Youtube Playlist](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
+
 ## Description
 
 This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with `fetch()` and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as a draw to HTML5 canvas with p5.js. The second and third project will introduce "full stack" development adding server-side programming with node.js for data persistence and API authentication.
