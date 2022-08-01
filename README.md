@@ -22,7 +22,7 @@ This course is for aspiring developers who want to learn how to work with data i
 1. What is `fetch()`?
    - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
    - Promises, async and await
-   - [Body - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Body)
+   - [Response - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Response)
    - `<img>` DOM element
 
 #### 1b: Tabular Data
